@@ -1,0 +1,15 @@
+World of Warcraft 1.12.1 Addon für Tanks mit Spott
+
+Im Spiel muss ein Makro angelegt werden mit folgendem Inhalt:
+/run TauntIt()
+Wenn das Makro durch betätigen des Knopfes ausgelöst wird, laufen folgende Entscheidungen ab:
+1. Spot wird nur ausgelöst, wenn der Mob den der Tank im Target hat einen anderen Spieler im Target hat.
+2. Wenn der Mob im Target des Tanks den Tank im Target hat, dann wird zum nächsten Target gesprungen.
+3. Es werden 10 Targets überprüft ob sie noch die Aggro auf den Tank haben.
+
+Nützliche Links:
+World of Warcraft 1.12.1 API
+http://vanilla-wow.wikia.com/wiki/World_of_Warcraft_API
+http://www.wowwiki.com/index.php?title=World_of_Warcraft_API&oldid=281620
+Programming in Lua
+http://www.lua.org/pil/contents.html

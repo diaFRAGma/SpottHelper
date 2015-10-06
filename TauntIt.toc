@@ -1,0 +1,6 @@
+## Interface: 11200
+## Title: TauntIt 1.0
+## Version: 1.0
+## Notes-deDE: Spottet nur dann wenn es auch sein muss.
+## Author: Ambro
+SpottHelper.lua
